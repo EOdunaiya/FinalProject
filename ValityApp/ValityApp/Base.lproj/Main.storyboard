@@ -173,6 +173,13 @@
                                         </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7E-cx-1pS">
+                                        <rect key="frame" x="32" y="52" width="20" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="tintColor" red="0.47980997809999998" green="0.41115929089999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" image="arrow.backward" catalog="system"/>
+                                    </button>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="o2G-wP-Sne"/>
                                 <color key="backgroundColor" red="0.96822577714920044" green="0.96529334783554077" blue="0.88266605138778687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -223,6 +230,13 @@ In a study, 43% of participants that followed a vegan diet, could reduce their b
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIO-GY-fcN">
+                                <rect key="frame" x="35" y="44" width="20" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="tintColor" red="0.47980997809999998" green="0.41115929089999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" image="arrow.backward" catalog="system"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lVo-Vf-XL8"/>
                         <color key="backgroundColor" red="0.96822577714920044" green="0.96529334783554077" blue="0.88266605138778687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -266,6 +280,13 @@ Veganism not only can affect physical health, but mental health as well. Vegans 
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyN-ge-fpA">
+                                <rect key="frame" x="35" y="56" width="20" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="tintColor" red="0.47980997809999998" green="0.41115929089999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" image="arrow.backward" catalog="system"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xZa-Lg-Kcl"/>
                         <color key="backgroundColor" red="0.96822577714920044" green="0.96529334783554077" blue="0.88266605138778687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -286,14 +307,6 @@ Veganism not only can affect physical health, but mental health as well. Vegans 
                     <view key="view" contentMode="scaleToFill" id="ft7-ye-Par">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l9v-YW-YGT">
-                                <rect key="frame" x="129" y="357" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="m51-eR-QHN"/>
                         <color key="backgroundColor" red="0.96822577714920044" green="0.96529334783554077" blue="0.88266605138778687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -312,6 +325,7 @@ Veganism not only can affect physical health, but mental health as well. Vegans 
         <image name="Screen Shot 2021-07-21 at 10.20.38 AM" width="502" height="284"/>
         <image name="Screen Shot 2021-07-21 at 11.22.02 AM" width="424" height="838"/>
         <image name="Screen Shot 2021-07-21 at 2.23.51 PM" width="494" height="220"/>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
         <image name="vehan7" width="300" height="168"/>
         <systemColor name="labelColor">
