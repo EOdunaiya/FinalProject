@@ -101,18 +101,21 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xux-u1-9fN">
-                                        <rect key="frame" x="144" y="29" width="49" height="30"/>
+                                        <rect key="frame" x="140" y="29" width="57" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Setting"/>
+                                        <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Settings"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DMM-Ex-g27">
                                         <rect key="frame" x="215" y="29" width="57" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Account"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEP-2Z-w3I">
                                         <rect key="frame" x="299" y="29" width="64" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="About Us"/>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 10.20.38 AM" translatesAutoresizingMaskIntoConstraints="NO" id="tF0-00-Fds">
@@ -190,6 +193,7 @@
                                         <rect key="frame" x="333" y="28" width="73" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                        <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" image="bookmark" catalog="system"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4k-hN-ZMa">
@@ -206,14 +210,44 @@
                                         </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0u9-Ol-GF0">
-                                        <rect key="frame" x="32" y="519" width="303" height="100"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0u9-Ol-GF0">
+                                        <rect key="frame" x="32" y="462" width="359" height="294"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">The vegan diet was created by The Vegan Society in 1944, but was completely defined in 1949. Veganism is the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals. A person who follows a diet or philosophy is known as a vegan. </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 2.23.51 PM" translatesAutoresizingMaskIntoConstraints="NO" id="rMf-e9-iqm">
+                                        <rect key="frame" x="214" y="696" width="214" height="134"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 2.23.51 PM" translatesAutoresizingMaskIntoConstraints="NO" id="BcJ-zi-xgI">
+                                        <rect key="frame" x="8" y="696" width="214" height="134"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTs-0n-vGK">
+                                        <rect key="frame" x="232" y="743" width="150" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                        <state key="normal" title="Perspective 2 (Con)">
+                                            <color key="titleColor" red="0.021835008636116982" green="0.0060998192057013512" blue="0.023093119263648987" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="mQj-YZ-4bO" kind="show" id="qhy-wJ-cmk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMO-gy-JUj">
+                                        <rect key="frame" x="32" y="742" width="140" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                        <state key="normal" title="Perspective 1 (Pro)">
+                                            <color key="titleColor" red="0.021835008636116982" green="0.0060998192057013512" blue="0.023093119263648987" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="KK6-r8-sTY" kind="show" id="CYS-mk-FXu"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="o2G-wP-Sne"/>
                                 <color key="backgroundColor" red="0.96822577714920044" green="0.96529334783554077" blue="0.88266605138778687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -222,19 +256,7 @@
                         <viewLayoutGuide key="safeArea" id="hNg-mW-YyM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Perspective 1 (Pro)" id="cms-uy-9IL">
-                            <connections>
-                                <segue destination="KK6-r8-sTY" kind="show" id="9uE-9z-Xif"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="xpW-zZ-5cN"/>
-                        <barButtonItem title="Perspective 2 (Con)" id="XWf-hg-ghc">
-                            <connections>
-                                <segue destination="mQj-YZ-4bO" kind="show" id="E9T-l8-nf4"/>
-                            </connections>
-                        </barButtonItem>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="Title" id="6di-vT-VkM"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -245,6 +267,7 @@
         <!--Title-->
         <scene sceneID="2ry-do-FET">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qmx-4S-drc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="KK6-r8-sTY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QkZ-Ec-vbe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -256,20 +279,6 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="38"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VFE-Nw-nWy">
-                                <rect key="frame" x="24" y="208" width="374" height="733"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">
-A vegan diet causes you to eat more of certain nutrients than a regular diet. Several studies have reported that vegan diets tend to provide more fiber, antioxidants, and beneficial plant compounds. It helps to reduce blood sugar levels and improve kidney function. Being vegans helps if you have type 2 diabetes and higher insulin sensitivity. 
-
-In a study, 43% of participants that followed a vegan diet, could reduce their blood sugar-lowering medication. Veganism also helps the animals that could have been potentially eaten. Animals have emotions and lives that should be valued. Veganism goes against animals being slaughtered and seen as revenue. A new study found that veganism can help with climate change. If each person becomes vegan, it can reduce the amount of greenhouse gases by up to 60%. 
-
-</mutableString>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2021-07-22_at_11.31.22_AM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="6vr-rD-8JU">
@@ -290,22 +299,45 @@ In a study, 43% of participants that followed a vegan diet, could reduce their b
                                 <rect key="frame" x="230" y="-2" width="248" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zif-lT-vcj">
+                                <rect key="frame" x="20" y="51" width="374" height="581"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">
+A vegan diet causes you to eat more of certain nutrients than a regular diet. Several studies have reported that vegan diets tend to provide more fiber, antioxidants, and beneficial plant compounds. It helps to reduce blood sugar levels and improve kidney function. Being vegans helps if you have type 2 diabetes and higher insulin sensitivity. 
+</string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAe-Zs-mi4">
+                                <rect key="frame" x="24" y="269" width="374" height="704"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">
+In a study, 43% of participants that followed a vegan diet, could reduce their blood sugar-lowering medication. Veganism also helps the animals that could have been potentially eaten. Animals have emotions and lives that should be valued. Veganism goes against animals being slaughtered and seen as revenue. A new study found that veganism can help with climate change. If each person becomes vegan, it can reduce the amount of greenhouse gases by up to 60%. 
+
+</string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNa-jO-oyV">
+                                <rect key="frame" x="365" y="44" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="square.and.pencil" catalog="system"/>
+                                <connections>
+                                    <segue destination="uMT-M7-MjU" kind="show" id="q5p-Vg-doq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lVo-Vf-XL8"/>
                         <color key="backgroundColor" red="0.96822577714920044" green="0.96529334783554077" blue="0.88266605138778687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="arrowshape.turn.up.right.fill" catalog="system" id="2F0-2l-0C3"/>
-                    <toolbarItems>
-                        <barButtonItem systemItem="compose" id="NiN-se-aNM">
-                            <connections>
-                                <segue destination="uMT-M7-MjU" kind="show" id="ZD8-Ea-TDt"/>
-                            </connections>
-                        </barButtonItem>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="Title" id="JLt-fC-fNg"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qmx-4S-drc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3368.115942028986" y="77.678571428571431"/>
         </scene>
@@ -375,36 +407,6 @@ In a study, 43% of participants that followed a vegan diet, could reduce their b
                                 <rect key="frame" x="168" y="607" width="112" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xUn-yH-OmF">
-                                <rect key="frame" x="168" y="543" width="226" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco liuda.</string>
-                                        <attributes>
-                                            <color key="NSColor" systemColor="labelColor"/>
-                                            <font key="NSFont" size="9" name="Papyrus"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="odw-XJ-tSx">
-                                <rect key="frame" x="168" y="390" width="226" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco liuda.</string>
-                                        <attributes>
-                                            <color key="NSColor" systemColor="labelColor"/>
-                                            <font key="NSFont" size="9" name="Papyrus"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSN-eS-UkI">
                                 <rect key="frame" x="370" y="475" width="21" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -417,21 +419,6 @@ In a study, 43% of participants that followed a vegan diet, could reduce their b
                                 <color key="tintColor" red="0.29401234850000002" green="0.25194538300000002" blue="0.61276830810000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" image="arrowshape.turn.up.right.fill" catalog="system"/>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3MD-rx-Vdo">
-                                <rect key="frame" x="168" y="685" width="226" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco liuda.</string>
-                                        <attributes>
-                                            <color key="NSColor" systemColor="labelColor"/>
-                                            <font key="NSFont" size="9" name="Papyrus"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdY-0R-dsI">
                                 <rect key="frame" x="373" y="770" width="21" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -446,21 +433,6 @@ In a study, 43% of participants that followed a vegan diet, could reduce their b
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e5R-Mk-Ffz">
-                                <rect key="frame" x="168" y="240" width="226" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco liuda.</string>
-                                        <attributes>
-                                            <color key="NSColor" systemColor="labelColor"/>
-                                            <font key="NSFont" size="9" name="Papyrus"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2021-07-22_at_10.50.53_AM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="fDf-3Z-AZW">
                                 <rect key="frame" x="168" y="313" width="112" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -513,17 +485,61 @@ In a study, 43% of participants that followed a vegan diet, could reduce their b
                                     <segue destination="fW7-6r-p8t" kind="show" id="1fU-k8-9tj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="df8-fB-Cpl">
+                                <rect key="frame" x="368" y="35" width="24" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="homekit" catalog="system"/>
+                                <connections>
+                                    <segue destination="fW7-6r-p8t" kind="show" id="b9Q-nx-tEg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrW-4L-pzg">
+                                <rect key="frame" x="173" y="134" width="218" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Topic: Veganism // Veganism is less sustainable especially for women because there is no way to get iron and vitamin b12 from plants. On top of which, plants have very low to little calcium necessary for the human body. Couldn’t the money spent on creating these in a lab just be spent on growing the animals, which would be more organic.</string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2e-kE-YE3">
+                                <rect key="frame" x="173" y="283" width="218" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Topic: Veganism // Veganism is more sustainable for the environment because we’ll be able to use less water to create beef(1847 gallons of water per pound) and more to grow plants(5 gal or less per plant). Imagine how many people we could feed.</string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DaP-UH-4P4">
+                                <rect key="frame" x="176" y="436" width="218" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Topic: Veganism // Actually to correct you, iron and b12 can be found in brown rice, cereal, dark-green leafs, nuts and seed. Although the concentration isn’t high enough, so on average we have to eat more or take supplements, but still that’s a win for the evnironment since less animals will create methane that pollutes our air and hurts the ozone layer.</string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="7"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Our-cD-HET">
+                                <rect key="frame" x="173" y="574" width="218" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Topic: Veganism // To me, veganism is a philosophy and way of living which seeks to exclude all forms of exploitation of, and cruelty to, animals for food, clothing or any other purpose. It promotes the development and use of animal-free alternatives for the benefit of animals, humans and the environment. </string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CWW-q4-UYu">
+                                <rect key="frame" x="197" y="37" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="square.and.pencil" catalog="system"/>
+                                <connections>
+                                    <segue destination="uMT-M7-MjU" kind="show" id="LbS-FO-dVg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="b5R-Cu-Cad"/>
                         <color key="backgroundColor" red="0.96822577714920044" green="0.96529334783554077" blue="0.88266605138778687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem systemItem="compose" id="Beu-wG-5M0">
-                            <connections>
-                                <segue destination="uMT-M7-MjU" kind="showDetail" id="VCu-D6-4B2"/>
-                            </connections>
-                        </barButtonItem>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="OO7-eN-4Di"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <size key="freeformSize" width="414" height="896"/>
@@ -625,7 +641,7 @@ In a study, 43% of participants that followed a vegan diet, could reduce their b
                                 <color key="tintColor" red="0.29401234850000002" green="0.25194538300000002" blue="0.61276830810000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" image="checkmark" catalog="system"/>
                                 <connections>
-                                    <segue destination="eob-8l-ID0" kind="show" id="BXy-nd-VQb"/>
+                                    <segue destination="eob-8l-ID0" kind="show" id="Nv4-2e-kT2"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="What would you like to say?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fIJ-3W-qvx">
@@ -636,13 +652,17 @@ In a study, 43% of participants that followed a vegan diet, could reduce their b
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96t-JD-iUI">
+                                <rect key="frame" x="374" y="749" width="20" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="trash" catalog="system"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Wl-Yn-FAZ"/>
                         <color key="backgroundColor" red="0.96822577714920044" green="0.96529334783554077" blue="0.88266605138778687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem systemItem="trash" id="pKh-I3-2JH"/>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="Pmp-G4-1XS"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -655,14 +675,14 @@ In a study, 43% of participants that followed a vegan diet, could reduce their b
             <objects>
                 <viewController id="X9a-7b-fIU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Whm-NZ-IyI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="nGO-w4-85x">
-                                <rect key="frame" x="44" y="58" width="124" height="44"/>
+                                <rect key="frame" x="44" y="58" width="124" height="56"/>
                                 <subviews>
                                     <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TXr-v0-ALn">
-                                        <rect key="frame" x="0.0" y="0.0" width="124" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="124" height="56"/>
                                         <items>
                                             <navigationItem title="Navigation" id="uBx-1r-HbD"/>
                                         </items>
@@ -670,9 +690,12 @@ In a study, 43% of participants that followed a vegan diet, could reduce their b
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z0m-oo-he7">
-                                <rect key="frame" x="176" y="67" width="49" height="30"/>
+                                <rect key="frame" x="172" y="67" width="57" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Setting"/>
+                                <state key="normal" title="Settings"/>
+                                <connections>
+                                    <segue destination="E49-Kv-nZG" kind="show" id="tjQ-P2-cV9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSH-kD-vij">
                                 <rect key="frame" x="242" y="67" width="57" height="30"/>
@@ -683,22 +706,50 @@ In a study, 43% of participants that followed a vegan diet, could reduce their b
                                 <rect key="frame" x="307" y="67" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="About Us"/>
+                                <connections>
+                                    <segue destination="jat-Q1-51Z" kind="show" id="3a4-YN-3pl"/>
+                                </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 2.23.51 PM" translatesAutoresizingMaskIntoConstraints="NO" id="5GV-Kt-7UN">
+                                <rect key="frame" x="0.0" y="110" width="477" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GX-Ir-SDl">
+                                <rect key="frame" x="107" y="181" width="187" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="User Account">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIN-ZE-Gr8">
+                                <rect key="frame" x="337" y="805" width="24" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="homekit" catalog="system"/>
+                                <connections>
+                                    <segue destination="fW7-6r-p8t" kind="show" id="O9q-d1-FXK"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ACCOUNT SETTINGS" translatesAutoresizingMaskIntoConstraints="NO" id="IzZ-ib-stv">
+                                <rect key="frame" x="0.0" y="219" width="421" height="643"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="88b-Sr-0Zb"/>
                         <color key="backgroundColor" red="0.9637712836265564" green="0.96393078565597534" blue="0.86958038806915283" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="yxf-0D-3jU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ta-EU-HUD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116" y="1413"/>
+            <point key="canvasLocation" x="2529" y="1412"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ftF-pe-8b0">
             <objects>
                 <viewController id="jat-Q1-51Z" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PJd-MV-6md">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 2.23.51 PM" translatesAutoresizingMaskIntoConstraints="NO" id="dOq-gR-iFU">
@@ -719,22 +770,6 @@ In a study, 43% of participants that followed a vegan diet, could reduce their b
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AeI-jO-bxf">
-                                <rect key="frame" x="28" y="203" width="366" height="714"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">What is Vitaly?
-
-Vitaly was created by our team, Sundry Stories. We noticed that many people, especially ages 15-20, are not educated on many topics. News platforms and social media give mixed opinions and skew towards one side. Vitaly is an app where you can search any topic and learn the unbiased version of it. You are able to learn about the topic in general and read both sides of the argument. It is also a place where you are able to find different viewpoints of a certain topic you are interested in. 
-
-What are our goals? 
-
-We want people to have a place to learn about topics/issues around the world with no chance of biasness. People are able to search up any topic and learn about the general information. This gives them a chance to create their own opinions instead of being influenced by others. We also want Vitaly to be a place where people can discuss and learn more about the things they are passionate about. This is why we created a community section for people to connect. 
-</mutableString>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2021-07-22_at_11.31.46_AM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="7D7-k5-myy">
                                 <rect key="frame" x="-77" y="790" width="215" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -743,10 +778,41 @@ We want people to have a place to learn about topics/issues around the world wit
                                 <rect key="frame" x="254" y="-7" width="248" height="202"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdM-04-wUx">
+                                <rect key="frame" x="366" y="38" width="24" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="homekit" catalog="system"/>
+                                <connections>
+                                    <segue destination="fW7-6r-p8t" kind="show" id="Jon-gT-zzO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OT4-EQ-Uxb">
+                                <rect key="frame" x="35" y="203" width="359" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">What is Vitaly?
+
+Vitaly was created by our team, Sundry Stories. We noticed that many people, especially ages 15-20, are not educated on many topics. News platforms and social media give mixed opinions and skew towards one side. Vitaly is an app where you can search any topic and learn the unbiased version of it. You are able to learn about the topic in general and read both sides of the argument. It is also a place where you are able to find different viewpoints of a certain topic you are interested in. </string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gY8-qE-KEY">
+                                <rect key="frame" x="28" y="488" width="359" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">What are our goals? 
+
+We want people to have a place to learn about topics/issues around the world with no chance of biasness. People are able to search up any topic and learn about the general information. This gives them a chance to create their own opinions instead of being influenced by others. We also want Vitaly to be a place where people can discuss and learn more about the things they are passionate about. This is why we created a community section for people to connect. 
+</string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6cy-xK-7Ed"/>
                         <color key="backgroundColor" red="0.9637712836265564" green="0.96393078565597534" blue="0.86958038806915283" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="0KA-a6-Egs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ag4-Wh-aOj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -800,51 +866,6 @@ We want people to have a place to learn about topics/issues around the world wit
                                 <rect key="frame" x="179" y="630" width="112" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dSz-gV-IKe">
-                                <rect key="frame" x="179" y="566" width="226" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco liuda.</string>
-                                        <attributes>
-                                            <color key="NSColor" systemColor="labelColor"/>
-                                            <font key="NSFont" size="9" name="Papyrus"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zpG-SO-ekG">
-                                <rect key="frame" x="179" y="413" width="226" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco liuda.</string>
-                                        <attributes>
-                                            <color key="NSColor" systemColor="labelColor"/>
-                                            <font key="NSFont" size="9" name="Papyrus"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="55O-bf-RRW">
-                                <rect key="frame" x="179" y="708" width="226" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco liuda.</string>
-                                        <attributes>
-                                            <color key="NSColor" systemColor="labelColor"/>
-                                            <font key="NSFont" size="9" name="Papyrus"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljE-vg-p75">
                                 <rect key="frame" x="184" y="690" width="218" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -853,21 +874,6 @@ We want people to have a place to learn about topics/issues around the world wit
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vlx-gE-Tyr">
-                                <rect key="frame" x="179" y="263" width="226" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco liuda.</string>
-                                        <attributes>
-                                            <color key="NSColor" systemColor="labelColor"/>
-                                            <font key="NSFont" size="9" name="Papyrus"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2021-07-22_at_10.58.52_AM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="S5t-n8-hBo">
                                 <rect key="frame" x="179" y="774" width="123" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -911,11 +917,53 @@ We want people to have a place to learn about topics/issues around the world wit
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39I-lx-bkO">
                                 <rect key="frame" x="364" y="18" width="24" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="homekit" catalog="system"/>
                                 <connections>
-                                    <segue destination="fW7-6r-p8t" kind="show" id="e2a-is-YOn"/>
+                                    <segue destination="fW7-6r-p8t" kind="show" id="LjL-UW-sLV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2E-Bp-ek7">
+                                <rect key="frame" x="33" y="22" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="square.and.pencil" catalog="system"/>
+                                <connections>
+                                    <segue destination="uMT-M7-MjU" kind="show" id="SVH-WB-hGi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3GX-lB-WKF">
+                                <rect key="frame" x="183" y="303" width="218" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Topic: Veganism // Veganism is more sustainable for the environment because we’ll be able to use less water to create beef(1847 gallons of water per pound) and more to grow plants(5 gal or less per plant). Imagine how many people we could feed.</string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbm-KX-goC">
+                                <rect key="frame" x="187" y="459" width="218" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Topic: Veganism // Actually to correct you, iron and b12 can be found in brown rice, cereal, dark-green leafs, nuts and seed. Although the concentration isn’t high enough, so on average we have to eat more or take supplements, but still that’s a win for the evnironment since less animals will create methane that pollutes our air and hurts the ozone layer.</string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="7"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PyI-bs-KGD">
+                                <rect key="frame" x="184" y="597" width="218" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Topic: Veganism // To me, veganism is a philosophy and way of living which seeks to exclude all forms of exploitation of, and cruelty to, animals for food, clothing or any other purpose. It promotes the development and use of animal-free alternatives for the benefit of animals, humans and the environment. </string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nZ-8L-dsD">
+                                <rect key="frame" x="187" y="148" width="218" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Topic: Veganism // Yes and no, biodiversity allows ecosystems to supply both carbon dioxide(including methane) which is then “cleaned by plants” while they create glucose or used some other way. This cycle of using and learning the air is built into the environment, so we don’t need to dismantle that.</string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="01B-8n-eBk"/>
                         <color key="backgroundColor" red="0.9637712836265564" green="0.96393078565597534" blue="0.86958038806915283" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -939,39 +987,74 @@ We want people to have a place to learn about topics/issues around the world wit
             <objects>
                 <viewController id="E49-Kv-nZG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VjS-lG-c9J">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="932-5F-gxS">
                                 <rect key="frame" x="20" y="44" width="124" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ACCOUNT SETTINGS-2" translatesAutoresizingMaskIntoConstraints="NO" id="D6m-IG-OKr">
+                                <rect key="frame" x="20" y="198" width="363" height="664"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 2.23.51 PM" translatesAutoresizingMaskIntoConstraints="NO" id="diq-ZC-eR0">
+                                <rect key="frame" x="0.0" y="96" width="477" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="awt-ZR-7Qt">
+                                <rect key="frame" x="44" y="73" width="124" height="56"/>
                                 <subviews>
-                                    <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UWM-0M-f8R">
-                                        <rect key="frame" x="0.0" y="0.0" width="124" height="44"/>
+                                    <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iec-et-jVW">
+                                        <rect key="frame" x="0.0" y="0.0" width="124" height="56"/>
                                         <items>
-                                            <navigationItem title="Navigation" id="xGZ-rP-eCD"/>
+                                            <navigationItem title="Navigation" id="1zz-XD-SuB"/>
                                         </items>
                                     </navigationBar>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uou-RV-Sah">
-                                <rect key="frame" x="152" y="53" width="49" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Tu-1e-COy">
+                                <rect key="frame" x="172" y="82" width="57" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Setting"/>
+                                <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Settings"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qs2-Yt-lXg">
-                                <rect key="frame" x="218" y="53" width="57" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTt-dF-o1A">
+                                <rect key="frame" x="242" y="82" width="57" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Account"/>
+                                <connections>
+                                    <segue destination="X9a-7b-fIU" kind="show" id="ygb-sP-MR6"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o0V-mK-9af">
-                                <rect key="frame" x="283" y="53" width="64" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqf-oN-X32">
+                                <rect key="frame" x="307" y="82" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="About Us"/>
+                                <connections>
+                                    <segue destination="jat-Q1-51Z" kind="show" id="Rv1-ts-Jm6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCk-VV-OEg">
+                                <rect key="frame" x="348" y="818" width="24" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="homekit" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68H-dx-G4b">
+                                <rect key="frame" x="145" y="167" width="111" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <state key="normal" title="Settings">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oHv-1V-jA8"/>
                         <color key="backgroundColor" red="0.9637712836265564" green="0.96393078565597534" blue="0.86958038806915283" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="RVW-ID-OHW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oqf-dA-p04" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -997,14 +1080,18 @@ We want people to have a place to learn about topics/issues around the world wit
                                 <rect key="frame" x="24" y="236" width="374" height="733"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">A vegan diet can cause gut issues. It excludes all sources of animal protein and turns to plant-based protein sources such as legumes. Legumes are rich in protein, but have a lot of antinutrients like phytates and lectin that increase intestinal issues. Soy is a big part of plant protein. All forms of soy contain phytoestrogens and consuming more than the recommended amount of soy will negatively impact the hormonal levels of the body. 
-
-Veganism not only can affect physical health, but mental health as well. Vegans have an increased risk of getting depression since they have no omega 3 fatty acids (from fish) and an increase in omega 6 (vegetable oil and nuts). There is also a chance of developing an eating disorder. A study found that vegans and vegetarians tend to display more disordered eating because of its restrictive diet. 
-</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pl0-tE-ZAt">
+                                <rect key="frame" x="35" y="196" width="359" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">A vegan diet can cause gut issues. It excludes all sources of animal protein and turns to plant-based protein sources such as legumes. Legumes are rich in protein, but have a lot of antinutrients like phytates and lectin that increase intestinal issues. Soy is a big part of plant protein. All forms of soy contain phytoestrogens and consuming more than the recommended amount of soy will negatively impact the hormonal levels of the body. </string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyN-ge-fpA">
                                 <rect key="frame" x="29" y="35" width="46" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1023,17 +1110,30 @@ Veganism not only can affect physical health, but mental health as well. Vegans 
                                 <rect key="frame" x="176" y="707" width="364" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRP-KW-d30">
+                                <rect key="frame" x="361" y="39" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.074858300387859344" green="0.075331814587116241" blue="0.27780312299728394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="square.and.pencil" catalog="system"/>
+                                <connections>
+                                    <segue destination="uMT-M7-MjU" kind="show" id="Ah3-VX-nRq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUZ-HB-tCt">
+                                <rect key="frame" x="28" y="418" width="359" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">
+Veganism not only can affect physical health, but mental health as well. Vegans have an increased risk of getting depression since they have no omega 3 fatty acids (from fish) and an increase in omega 6 (vegetable oil and nuts). There is also a chance of developing an eating disorder. A study found that vegans and vegetarians tend to display more disordered eating because of its restrictive diet. 
+</string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xZa-Lg-Kcl"/>
                         <color key="backgroundColor" red="0.96822577714920044" green="0.96529334783554077" blue="0.88266605138778687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem systemItem="compose" id="vmW-Ok-vpx">
-                            <connections>
-                                <segue destination="uMT-M7-MjU" kind="show" id="iVL-oP-HlT"/>
-                            </connections>
-                        </barButtonItem>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="nzA-9K-T3k"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -1046,11 +1146,15 @@ Veganism not only can affect physical health, but mental health as well. Vegans 
             <objects>
                 <viewController id="iir-tM-hjh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ft7-ye-Par">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 2.23.51 PM" translatesAutoresizingMaskIntoConstraints="NO" id="ZmL-AL-4zy">
                                 <rect key="frame" x="0.0" y="33" width="477" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-21 at 2.23.51 PM" translatesAutoresizingMaskIntoConstraints="NO" id="w50-eY-2PX">
+                                <rect key="frame" x="184" y="704" width="230" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qy7-Et-juT">
@@ -1071,22 +1175,12 @@ Veganism not only can affect physical health, but mental health as well. Vegans 
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jcP-dT-mRN">
-                                <rect key="frame" x="28" y="221" width="359" height="513"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2021-07-22_at_11.31.46_AM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="C1o-qd-DPH">
+                                <rect key="frame" x="-64" y="663" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Welcome to Vitaly’s Comment section! We are thrilled to give you a warm welcome. Our mission is to prevent biased conversation by helping people find both sides of the conversation. We will be working hard to ensure that we align our actions with that purpose. These Community guidelines are to help users understand how to interact in this space.
-
-	Community Guidelines:
-
-1. Any Hateful content, including discrimnation, hate speech bullying or attacks based on someone's point of view is not tolerated. 
-2. Make new friends and connect!
-</mutableString>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="19"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLx-IR-Uds">
-                                <rect key="frame" x="234" y="780" width="139" height="62"/>
+                                <rect key="frame" x="211" y="741" width="139" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="32"/>
                                 <state key="normal" title="Continue ">
@@ -1096,10 +1190,28 @@ Veganism not only can affect physical health, but mental health as well. Vegans 
                                     <segue destination="uMT-M7-MjU" kind="show" id="bfE-KD-fAt"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen_Shot_2021-07-22_at_11.31.46_AM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="C1o-qd-DPH">
-                                <rect key="frame" x="-64" y="663" width="240" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="px5-IQ-Gor">
+                                <rect key="frame" x="28" y="201" width="359" height="294"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <string key="text">Welcome to Vitaly’s Comment section! We are thrilled to give you a warm welcome. Our mission is to prevent biased conversation by helping people find both sides of the conversation. We will be working hard to ensure that we align our actions with that purpose. These Community guidelines are to help users understand how to interact in this space.
+</string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ry5-Dc-MPk">
+                                <rect key="frame" x="20" y="439" width="359" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">
+	Community Guidelines:
+
+1. Any Hateful content, including discrimnation, hate speech bullying or attacks based on someone's point of view is not tolerated. 
+2. Make new friends and connect!
+</string>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="m51-eR-QHN"/>
                         <color key="backgroundColor" red="0.96822577714920044" green="0.96529334783554077" blue="0.88266605138778687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1130,12 +1242,16 @@ Veganism not only can affect physical health, but mental health as well. Vegans 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="r5f-Al-0if"/>
-        <segue reference="ZD8-Ea-TDt"/>
+        <segue reference="ygb-sP-MR6"/>
+        <segue reference="UIo-AR-pis"/>
+        <segue reference="Rv1-ts-Jm6"/>
+        <segue reference="LbS-FO-dVg"/>
         <segue reference="pLn-as-Wxr"/>
-        <segue reference="vDO-DX-o1a"/>
+        <segue reference="b9Q-nx-tEg"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="ACCOUNT SETTINGS" width="1728" height="2304"/>
+        <image name="ACCOUNT SETTINGS-2" width="1296" height="1728"/>
         <image name="Screen Shot 2021-07-21 at 1.55.00 PM" width="60" height="60"/>
         <image name="Screen Shot 2021-07-21 at 1.55.06 PM" width="102" height="60"/>
         <image name="Screen Shot 2021-07-21 at 1.57.43 PM" width="160" height="162"/>
@@ -1161,6 +1277,8 @@ Veganism not only can affect physical health, but mental health as well. Vegans 
         <image name="bookmark" catalog="system" width="112" height="128"/>
         <image name="checkmark" catalog="system" width="128" height="114"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="115"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
         <image name="vehan7" width="300" height="168"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
